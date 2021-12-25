@@ -1,0 +1,12 @@
+<svg width="450" height="120" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="450" height="120">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="background-color:red">
+            <h1>About issue</h1>
+            <p>
+                Your issue may be deleted for any reason without notice.
+                <br></br>
+                I'm here to wait for code improvement suggestions, not for fighting.
+            </p>
+        </div>
+    </foreignObject>
+</svg>
