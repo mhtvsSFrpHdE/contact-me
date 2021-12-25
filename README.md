@@ -54,5 +54,12 @@ Embed to other README.md file:
 ...
 ```
 
+GitHub serves "raw" pages with Cache-Control: max-age=300.  
+That's specified in seconds, meaning the pages are intended to be cached for 5 minutes.
+
+https://stackoverflow.com/questions/46551413/github-not-update-raw-after-commit
+
+John Zwinck answered Apr 10 '19 at 14:33
+
   </body>
 </html>
