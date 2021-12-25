@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>README.md</title>
   </head>
   <body>
 
@@ -23,6 +22,36 @@ So I can filter them out from spam emails.
 Email title: ToGitUser I want to tell you something about...
 
 Email content: Any other text.
+```
+
+## Embed
+
+https://stackoverflow.com/questions/14951321/how-to-display-html-content-in-github-readme-md
+
+yihao ye answered Nov 28 '20 at 12:36
+
+Create a sample svg file:
+
+```
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+<foreignObject width="100" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+        <ul>
+            <li>text</li>
+        </ul>
+        <!-- Other embed HTML element/text into SVG -->
+    </div>
+</foreignObject>
+</svg>
+```
+
+Embed to other README.md file:
+
+```
+![](https://raw.githubusercontent.com/<user name>/<repository name>/<branch name>/SvgFilePath.svg)
+
+# Other readme content
+...
 ```
 
   </body>
